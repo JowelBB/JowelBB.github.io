@@ -80,12 +80,6 @@ section ul li {
     margin-bottom: 10px;
 }
 
-section ul li::before {
-    content: "✔";
-    color: #006666;
-    margin-right: 10px;
-}
-
 /* Imagenes */
 section img {
     max-width: 100%;
