@@ -1,0 +1,100 @@
+/* Estilo general, es decir del cuerpo principal */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #7FFFD4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #006666;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #004C4C;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* menu de nav */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Separadores */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #004C4C;
+    margin: 0;
+}
+
+/* Secciones principales */
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #006666;
+    margin-top: 0;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+/* Listas */
+section ul {
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li::before {
+    content: "✔";
+    color: #006666;
+    margin-right: 10px;
+}
+
+/* Imagenes */
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Estilos de los subtitulos */
+section p b {
+    color: #006666;
+}
